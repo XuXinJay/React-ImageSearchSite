@@ -1,0 +1,139 @@
+.body_color{
+  background-color: var(--body-color);
+}
+
+/* --------------------------------- Header --------------------------------- */
+
+.website_header {
+  height: 60px;
+  width: 100%;
+  background-color: var(--body-color);
+  box-shadow: 0px 2px 10px 1px rgba(30, 30, 30, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+.uil-brightness-half {
+  margin-left: 1rem;
+}
+
+.uil-brightness-half:hover {
+cursor: pointer;
+}
+
+/* --------------------------------- Home --------------------------------- */
+
+.website_home {
+  margin-top: 1rem;
+  height: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.morePicture {
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  margin-bottom: 1rem;
+  border: 1px solid #3A8FB7;
+}
+
+.morePicture:hover {
+  cursor: pointer;
+  background-color: #3A8FB7;
+}
+
+/* --------------------------------- Search --------------------------------- */
+
+.search_box {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.search_icon {
+font-size: 24px;
+margin-left: 5px;
+text-align: center;
+align-items: center;
+color: var(--text-color);
+}
+
+.search_icon:hover {
+  cursor: pointer;
+  color: #3A8FB7;
+}
+.search_input {
+  border-radius: 10px;
+  padding: 2px 10px;
+
+}
+
+.search_input:focus {
+  border: #3A8FB7 solid 2.5px;
+  outline: none;
+}
+
+/* --------------------------------- Picture --------------------------------- */
+
+.website_picture_box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 1rem;
+}
+
+.website_picture {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.website_picture_name {
+  color: var(--text-color);
+}
+
+.picture_box {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.picture_size {
+  transition: all 0.5s ease-out;
+  margin-top: 100px;
+}
+
+.picture_size:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 0.5s ease-out;
+  /* cursor: pointer; */
+}
+
+/* .picture_a {
+  color: var(--text-color);
+  text-decoration: none;
+} */
+
+/* --------------------------------- Footer --------------------------------- */
+
+.website_footer {
+  height: 80px;
+  width: 100%;
+  background-color: #3A8FB7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: var(--text-color);
+}
